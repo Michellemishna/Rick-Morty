@@ -1,0 +1,16 @@
+.content {
+    background-color: #e4a788;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5%;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2px;
+    border: 2px solid #ad8821;
+    margin-top: 20px;
+    
+
+    text-align-last:center;
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+        
+}

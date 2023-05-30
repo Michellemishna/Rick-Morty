@@ -1,0 +1,10 @@
+.divCards {
+    background-color: #1a32b99d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* border-radius: 20px; */
+    width:90%;
+}

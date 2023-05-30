@@ -1,0 +1,80 @@
+.divCard {
+    width: 200px;
+    border-radius: 10px;
+    background-color: #2873cf;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+    
+
+
+    animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}
+}
+
+.divCard:hover {
+    box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+img{
+    width: 200px;
+    height: auto;
+    box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    
+}
+
+.titles {
+  padding: 11px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color:#44281d;
+  line-height: .5;
+}
+
+.titleName {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 1px;
+    color:#44281d;
+    border: 1px solid 	#44281d00;
+   
+    transition: all 400ms ease;
+   
+}
+
+.titleName:hover {
+    background: #e89ac8b6;
+
+
+}
+
+.botonc {
+    width: 30px;
+    margin: 6px;
+    border-radius: 12px;
+    font-size: 100%;
+    background-color: rgb(180, 32, 32);
+    border: 2px solid #9c230e;
+    float:right;
+}
+
+.btnlike {    
+        
+    width: 50px;
+    background-color:#db224a; 
+    color: #44281d;
+    border: 2px solid #d15656;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 40px;
+    float:left;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+
+button:hover {
+    background: #e89ac8b6;
+}

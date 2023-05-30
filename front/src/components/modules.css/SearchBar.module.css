@@ -1,0 +1,60 @@
+.Navegador {
+    background-color:#582f65b4;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content:space-around;
+    
+    }
+    
+    .Navegador input{
+    
+        width: 220px;
+        height: 40px;
+        background-color:whitesmoke;
+        text-align:right;
+        border-radius: 15px;
+        outline: none;
+        border: 2px solid #39ff14;
+        margin-top: 10px;
+        float: left;
+        }
+
+
+ button {    
+        
+        width: 140px;
+        background-color:#f06cdb; 
+        color: #44281d;
+        border: 2px solid #dd58aa;
+        transition-duration: 0.4s;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        height: 35px;
+        position: relative;        
+        border-radius: 50px;
+        float: left;
+        margin-top: 10px;
+        
+        
+    }
+    button:hover {
+        background: #e89ac8b6;
+    }
+    .buttona {    
+        
+        width: 290px;
+        background-color:#39ff14; 
+        color: #0f1e22;
+        border: 2px solid #e89ac8b6;
+       font-size: 20px;
+       text-transform: uppercase;
+       border-radius: 0%;
+      
+        
+    }
+    .buttona:hover {
+        background: #e89ac8b6;
+    }

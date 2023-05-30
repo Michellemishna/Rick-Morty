@@ -1,0 +1,22 @@
+.divCards {
+   
+    background-color: #835eda73;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius: 20px; */
+    width:90%;
+    padding: 15px;
+
+}
+.filter {
+    margin-top: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #39ff14;
+    width: 140px;
+    border: 2px solid #dd58aa;
+        
+}
