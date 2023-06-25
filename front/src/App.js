@@ -1,16 +1,16 @@
 import './App.css'
 // import Card from './components/Card.jsx'
-import Cards from './components/Cards.jsx'
+import Cards from './component/Cards.jsx'
 import styles from './App.css'
 // import SearchBar from './components/SearchBar.jsx'
 // import characters from './data.js'
-import Nav from './components/Nav.jsx'
-import About from './components/About'
+import Nav from './component/Nav.jsx'
+import About from '../views/About/About.jsx'
 import { useState, useEffect } from 'react'
 import {Routes, Route, useLocation, useNavigate} from 'react-router-dom'
-import Detail from './components/Detail'
-import Form from './components/Form'
-import Favorites from './components/favorites'
+import Detail from '../views/Detail/Detail.jsx'
+import Form from '../views/Form/Form.jsx'
+import Favorites from './component/Favorites'
 
 
 

@@ -19,7 +19,7 @@ align-items: center;  */
     sans-serif;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background-image: url(C:\Users\usuario\Desktop\Proyectos\rick_morty\front\src\components\modules.css\imagen\30-303997.jpg);
+  background-image: url("C:\Users\User\Documents\Rick-Morty\front\src\components\modules.css\imagen\30-303997.jpg");
   
   background-size:cover;
  /* background-repeat: no-repeat;    */
